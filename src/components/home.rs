@@ -3,9 +3,12 @@ use dioxus::prelude::*;
 #[component]
 pub fn Home()-> Element{
     rsx!{
-        h1 {
-            style: "color: blue",
-            "Hello, world!"
+        div { 
+            style: "text-align: center",
+            h1 {
+                style: "color: blue",
+                "Hello, world!"
+            }
         }
     }
 }
